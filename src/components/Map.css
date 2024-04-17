@@ -1,0 +1,29 @@
+.delete-btn-container {
+    position: relative;
+}
+
+.delete-btn, .delete-all-btn {
+    position: absolute;
+    display: table-cell;
+    top: 70px;
+    padding: 0px 17px;
+    height: 40px;
+    background: none padding-box rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: none;
+    cursor: pointer;
+    color: rgb(86, 86, 86);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    min-width: 66px;
+    z-index: 1;
+}
+
+.delete-btn {
+    left: 10px;
+}
+
+.delete-all-btn {
+    left: 100px;
+}
